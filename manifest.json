@@ -1,0 +1,18 @@
+{
+    "domain": "youtube_recently_added",
+    "name": "YouTube Recently Added",
+    "version": "2.0.0",
+    "documentation": "https://github.com/mkanet/sensor.youtube_recently_added",
+    "requirements": [
+        "google-auth>=2.15.0,<3.0.0",
+        "google-auth-oauthlib>=1.0.0,<2.0.0",
+        "google-api-python-client>=2.39.0,<3.0.0",
+        "requests>=2.26.0,<3.0.0",
+        "isodate==0.6.1"
+    ],
+    "dependencies": [],
+    "codeowners": ["@MKANET"],
+    "iot_class": "cloud_push",
+    "homeassistant": "2021.12.0",
+    "config_flow": true
+}
